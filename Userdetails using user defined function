@@ -1,0 +1,16 @@
+#include<stdio.h>
+int userdetails()
+{
+char name,department;
+int age;
+printf("name of the user\n");
+scanf("%s",&name);
+printf("age of the user\n");
+scanf("%d",&age);
+printf("department of the user\n");
+scanf("%s",&department);
+}
+int main()
+{
+userdetails();
+}
