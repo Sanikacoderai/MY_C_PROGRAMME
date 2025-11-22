@@ -1,0 +1,8 @@
+#include<stdio.h>
+#include<stdlib.h>
+int main(){
+    int *raj;
+    raj=(int*)malloc(5*sizeof(int));
+    raj=(int*)realloc(raj,12*sizeof(int));
+    printf("%d",*raj);
+}
